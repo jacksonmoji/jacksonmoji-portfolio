@@ -12,11 +12,11 @@ body {
 hr {
   max-width: 65px;
   border-width: 3px;
-  border-color: #F05F44; 
+  border-color: rgb(68, 108, 240); 
 }
 
 .faded {
-  color: rgba(255, 255, 255, 0.8); 
+  color: rgba(29, 28, 28, 0.8); 
 }
 
 header.startup {
@@ -47,12 +47,12 @@ header.startup h1 {
 }
 
 .btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
+  background-color: rgb(68, 108, 240);
+  border-color: rgb(68, 108, 240) }
 
 .btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
+  background-color:rgb(68, 108, 240);
+  border-color: rgb(68, 108, 240);
   border-width: 5px;
   cursor: pointer;
 }
