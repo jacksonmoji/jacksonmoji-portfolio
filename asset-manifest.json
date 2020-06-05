@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/jacksonmoji/static/css/main.6ab8b457.chunk.css",
-    "main.js": "/jacksonmoji/static/js/main.e8207dde.chunk.js",
-    "main.js.map": "/jacksonmoji/static/js/main.e8207dde.chunk.js.map",
-    "runtime-main.js": "/jacksonmoji/static/js/runtime-main.5cbfdc47.js",
-    "runtime-main.js.map": "/jacksonmoji/static/js/runtime-main.5cbfdc47.js.map",
-    "static/js/2.dd13b002.chunk.js": "/jacksonmoji/static/js/2.dd13b002.chunk.js",
-    "static/js/2.dd13b002.chunk.js.map": "/jacksonmoji/static/js/2.dd13b002.chunk.js.map",
-    "index.html": "/jacksonmoji/index.html",
-    "precache-manifest.457ca675c223cda1f6ed05cc5b6879d3.js": "/jacksonmoji/precache-manifest.457ca675c223cda1f6ed05cc5b6879d3.js",
-    "service-worker.js": "/jacksonmoji/service-worker.js",
-    "static/css/main.6ab8b457.chunk.css.map": "/jacksonmoji/static/css/main.6ab8b457.chunk.css.map",
-    "static/js/2.dd13b002.chunk.js.LICENSE.txt": "/jacksonmoji/static/js/2.dd13b002.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/jacksonmoji/static/media/bg-7.7ad01e4e.png",
-    "static/media/profile_.jpg": "/jacksonmoji/static/media/profile_.8a851655.jpg"
+    "main.css": "/jacksonmoji-portfolio/static/css/main.5a4fb5a5.chunk.css",
+    "main.js": "/jacksonmoji-portfolio/static/js/main.3f105c89.chunk.js",
+    "main.js.map": "/jacksonmoji-portfolio/static/js/main.3f105c89.chunk.js.map",
+    "runtime-main.js": "/jacksonmoji-portfolio/static/js/runtime-main.836db632.js",
+    "runtime-main.js.map": "/jacksonmoji-portfolio/static/js/runtime-main.836db632.js.map",
+    "static/js/2.dd13b002.chunk.js": "/jacksonmoji-portfolio/static/js/2.dd13b002.chunk.js",
+    "static/js/2.dd13b002.chunk.js.map": "/jacksonmoji-portfolio/static/js/2.dd13b002.chunk.js.map",
+    "index.html": "/jacksonmoji-portfolio/index.html",
+    "precache-manifest.e57f20cf9b1e8589b0acf67523840b54.js": "/jacksonmoji-portfolio/precache-manifest.e57f20cf9b1e8589b0acf67523840b54.js",
+    "service-worker.js": "/jacksonmoji-portfolio/service-worker.js",
+    "static/css/main.5a4fb5a5.chunk.css.map": "/jacksonmoji-portfolio/static/css/main.5a4fb5a5.chunk.css.map",
+    "static/js/2.dd13b002.chunk.js.LICENSE.txt": "/jacksonmoji-portfolio/static/js/2.dd13b002.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/jacksonmoji-portfolio/static/media/bg-7.7ad01e4e.png",
+    "static/media/profile_.jpg": "/jacksonmoji-portfolio/static/media/profile_.8a851655.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5cbfdc47.js",
+    "static/js/runtime-main.836db632.js",
     "static/js/2.dd13b002.chunk.js",
-    "static/css/main.6ab8b457.chunk.css",
-    "static/js/main.e8207dde.chunk.js"
+    "static/css/main.5a4fb5a5.chunk.css",
+    "static/js/main.3f105c89.chunk.js"
   ]
 }
