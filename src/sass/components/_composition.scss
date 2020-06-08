@@ -1,44 +1,45 @@
 .composition {
     position: relative;
+    filter: drop-shadow(0 1.5rem 1.5rem rgba(0, 0, 0, .9));
     &__photo {
+        position: absolute;
+        box-shadow: 0 1.5rem 4rem rgba( #000000, .4);
+        z-index: 10;
+        transition: all .2s;
+        outline-offset: 2rem;
+   
+        //clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+        // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 
-        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-        
-        &--about {
-            height: 60rem; 
-            background-image: url(./img/profile_.jpg);
+
+        &--p1 { 
+            
+            left: 0%;
+            top: 2rem;
         }
 
-        &--portfolio {
-            position: absolute;
-            box-shadow: 0 1.5rem 4rem rgba( #000000, .4);
-            z-index: 10;
-            transition: all .2s;
-            outline-offset: 2rem;
-
-            &--one {
-                 left: 0;
-                 top: -2rem;
-            }
-
-            &--two {
-                right: 0;
-                top: 2rem;
-            }
-
-           &--three {
-                left: 20%;
-                top:  10rem;
-            }
-
-           &:hover {
-               outline: 1.5rem solid $color-primary;
-               transform: scale(1.05);
-               box-shadow: 0 2.5rem 4rem rgba( #000000, .5);
-               z-index: 20;
-           } 
+        &--p2 {
+    
+            right: 10%;
+            top: 10rem;
         }
+
+        &--p3 {
         
+            left: 40%;
+            top: 0rem;
+        }
+
+        &:hover {
+            transform: scale(1.25);
+            z-index: 20;
+        } 
+   
+    }
+    &:hover &__photo:not(:hover) {
+        transform: scale(1.05);
+
     }
     
 }

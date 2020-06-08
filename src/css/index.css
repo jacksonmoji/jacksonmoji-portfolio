@@ -42,6 +42,14 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
+@keyframes floating {
+  from {
+    transform: translate(0, 0px); }
+  65% {
+    transform: translate(0, 15px); }
+  to {
+    transform: translate(0, 0px); } }
+
 body {
   font-family: "lato", sans-serif;
   font-weight: 400;
@@ -101,6 +109,57 @@ body {
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
+
+.file {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 50rem; }
+  .file__side {
+    height: 50rem;
+    transition: all 1s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden; }
+    .file__side--front {
+      background-color: none; }
+    .file__side--back {
+      transform: rotateX(180deg); }
+  .file:hover .file__side--front {
+    transform: rotateX(-180deg); }
+  .file:hover .file__side--back {
+    transform: rotateX(0); }
+
+.tool-box {
+  background-color: #1c2d3c;
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  .tool-box__icon {
+    display: inline-block;
+    background-image: linear-gradient(to right, rgba(130, 94, 38, 0.9), rgba(102, 142, 255, 0.9));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 6rem;
+    margin-bottom: .6rem; }
+  .tool-box__text {
+    list-style: none; }
+    .tool-box__text ul {
+      list-style-type: none; }
+  .tool-box--floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px; }
+    .tool-box--floating:hover {
+      animation: none;
+      transform: translateY(-2rem) scale(1.25); }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -170,32 +229,29 @@ body {
   border-radius: .5rem; }
 
 .composition {
-  position: relative; }
+  position: relative;
+  filter: drop-shadow(0 1.5rem 1.5rem rgba(0, 0, 0, 0.9)); }
   .composition__photo {
-    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); }
-    .composition__photo--about {
-      height: 60rem;
-      background-image: url(./img/profile_.jpg); }
-    .composition__photo--portfolio {
-      position: absolute;
-      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-      z-index: 10;
-      transition: all .2s;
-      outline-offset: 2rem; }
-      .composition__photo--portfolio--one {
-        left: 0;
-        top: -2rem; }
-      .composition__photo--portfolio--two {
-        right: 0;
-        top: 2rem; }
-      .composition__photo--portfolio--three {
-        left: 20%;
-        top: 10rem; }
-      .composition__photo--portfolio:hover {
-        outline: 1.5rem solid #777;
-        transform: scale(1.05);
-        box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-        z-index: 20; }
+    position: absolute;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 2rem;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+    .composition__photo--p1 {
+      left: 0%;
+      top: 2rem; }
+    .composition__photo--p2 {
+      right: 10%;
+      top: 10rem; }
+    .composition__photo--p3 {
+      left: 40%;
+      top: 0rem; }
+    .composition__photo:hover {
+      transform: scale(1.25);
+      z-index: 20; }
+  .composition:hover .composition__photo:not(:hover) {
+    transform: scale(1.05); }
 
 .row {
   max-width: 114rem;
@@ -225,7 +281,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(./img/bg-7.png);
+  background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(../img/bg-7.png);
   background-size: cover;
   /* makes sure that the background image is responsive to window size changes */
   background-position: bottom;
@@ -249,3 +305,15 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh; }
+
+.section-tools {
+  padding: 20rem 0;
+  background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(../img/bg-5.png);
+  background-size: cover;
+  /* makes sure that the background image is responsive to window size changes */
+  clip-path: polygon(50% 0%, 100% -5%, 100% 75%, 50% 100%, 0% 75%, 0% -5%); }
+
+.section-projects {
+  background-color: #f7f7f7;
+  padding: 25rem 0 50rem 0;
+  margin-top: -21rem; }

@@ -1,0 +1,46 @@
+.file {
+    perspective: 150rem; 
+    -moz-perspective: 150rem;
+    position: relative;
+    height: 50rem;
+
+    &__side {
+        height: 50rem;
+      
+        transition: all 1s ease-in-out;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+
+        width: 100%;
+        backface-visibility: hidden; //hides the backside of an image 
+
+        &--front {
+            background-color: none;
+    
+        }
+    
+        &--back {
+            transform: rotateX(180deg);
+            &-1 {
+             
+            }
+        }
+    
+    }
+
+  
+    &:hover &__side--front {
+        // transform: rotateX(180deg);
+        transform: rotateX(-180deg)
+        
+    }
+
+    &:hover &__side--back {
+        transform: rotateX(0); 
+    }
+}
+
+//.file:hover .file__side {
