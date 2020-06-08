@@ -3,6 +3,8 @@ import logo from './img/logo.png';
 import pro_pic_1 from './img/pro-pic-1.png';
 import pro_pic_3 from './img/pro-pic-3.png';
 import project_p1 from './img/bantuweb-add-translation.png';
+import { FaSass, FaPhp, FaPython, FaAngular, FaJs, FaBootstrap, FaAws } from 'react-icons/fa';
+import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 import './App.css';
 
 function App() {
@@ -142,9 +144,12 @@ function App() {
             </div>
           </div>
           <div className="col-2-of-4">
-          <h3 className="heading-tertiary u-margin-bottom-small">BantuWeb</h3>    
+          <h3 className="heading-tertiary u-margin-bottom-small">BantuWeb MSc Project</h3>    
             <p className="paragraph"> 
               This is a deliverable from my MSc Computer Science research. Essentially, Bantuweb is a document discovery and crowd-sourcing platform, of which I developed in efforts to translate articles extracted from Wikipedia to indigenous South Africa languages. This is done with participants' help. Also, I incorporated gratification as a means to motivate participants to contribute and engage more in BantuWeb. Other ways to contribute in the platform is by writing blogs/stories and uploading digital documents written in any of the indigenous South African languages.
+            </p>
+            <p className="skills__big">
+              <DiAws /> <FaPython /> <DiPostgresql /> <DiDjango /> <FaJs /> <FaAngular /> <FaBootstrap />
             </p>
           </div>
         </div>

@@ -98,6 +98,12 @@ body {
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
+.skills__big {
+  font-size: 2.5rem; }
+
+.skills__small {
+  font-size: small; }
+
 .u-center-text {
   text-align: center; }
 
