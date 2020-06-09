@@ -1,9 +1,8 @@
 import React from 'react';
 import logo from './img/logo.png';
 import pro_pic_1 from './img/pro-pic-1.png';
-import pro_pic_3 from './img/pro-pic-3.png';
 import project_p1 from './img/bantuweb-add-translation.png';
-import { FaSass, FaPhp, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaSass, FaPhp, FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 import './App.css';
 
@@ -131,7 +130,7 @@ function App() {
       <section className="section-projects">
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">
-            My Exciting Projects
+            Projects
           </h2>
         </div>
         <div className="row">
@@ -160,6 +159,31 @@ function App() {
         </div>
       </section>
      </main>
+
+     <footer className="footer">
+       <div className="footer__logo-box">
+         <img src={logo} alt="logo" className="footer__logo"></img>
+       </div>
+       <div className="row">
+          <div className="col-2-of-4">
+            <div className="footer__social">
+                <ul className="footer_list">
+                  <li className="footer__item"><a href="#" className="footer__link"><FaLinkedin /></a></li>
+                  <li className="footer__item"><a href="#" className="footer__link"><FaFacebook /></a></li>
+                  <li className="footer__item"><a href="#" className="footer__link"><FaTwitter /></a></li>
+                  <li className="footer__item"><a href="#" className="footer__link"><FaGithub /></a></li>
+                </ul>
+            </div>
+          </div>
+          <div className="col-2-of-4">
+            <div className="footer__social">
+                <p className="footer__copyright">
+                  Created by <span className="footer__text--name" > Jackson Moji </span>
+                </p>
+            </div>
+          </div>
+        </div>
+     </footer>
 {/* 
      <section className="grid-test">
       <div className="row">

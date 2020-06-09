@@ -226,11 +226,9 @@ body {
     background-color: #262b31; }
 
 .btn--blue {
-  background-color: rgba(102, 142, 255, 0.9);
-  color: antiquewhite;
+  background-color: #dabe85;
+  color: #777;
   margin: 2rem; }
-  .btn--blue::after {
-    background-color: rgba(102, 142, 255, 0.9); }
 
 .btn::after {
   content: "";
@@ -295,6 +293,35 @@ body {
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(1.05); }
+
+.footer {
+  background-color: #22272d;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+  clip-path: polygon(50% 25%, 100% 0%, 100% 100%, 0 100%, 0 0%);
+  margin-top: -12%; }
+  .footer__logo-box {
+    margin-bottom: 8rem; }
+  .footer__logo {
+    width: 15rem;
+    height: auto; }
+  .footer__list {
+    list-style: none; }
+  .footer__text--name {
+    color: #dabe85;
+    text-transform: uppercase; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: #dabe85;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
+  .footer__link:hover, .footer__link:active {
+    color: antiquewhite; }
 
 .row {
   max-width: 114rem;
