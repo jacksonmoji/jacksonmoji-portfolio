@@ -41,6 +41,18 @@
         }
 
     }
+    &--blue {
+       
+        // rgba(130, 94, 38, 0.9), rgba(102, 142, 271, 0.9)
+        background-color: rgba(102, 142, 271, 0.9);
+        color: $color-white-gold;
+        margin: 2rem;
+
+        &::after {
+            background-color: rgba(102, 142, 271, 0.9);
+        }
+
+    }
 
     &::after {
         content: "";

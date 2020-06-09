@@ -3,7 +3,7 @@ import logo from './img/logo.png';
 import pro_pic_1 from './img/pro-pic-1.png';
 import pro_pic_3 from './img/pro-pic-3.png';
 import project_p1 from './img/bantuweb-add-translation.png';
-import { FaSass, FaPhp, FaPython, FaAngular, FaJs, FaBootstrap, FaAws } from 'react-icons/fa';
+import { FaSass, FaPhp, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 import './App.css';
 
@@ -65,6 +65,7 @@ function App() {
         <div className="row">
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
+               
               <i className="tool-box__icon icon-basic-webpage-multiple"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Front End </h3>    
               <p className="tool-box__text">
@@ -76,12 +77,14 @@ function App() {
                   <li>Bootstrap</li>
                 </ul>
               </p>
-
+            
             </div>
+            <div className="badge badge--p1 badge--p1--floating"></div>
           </div>
 
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
+              <div className="badge badge--p2"></div>
               <i className="tool-box__icon icon-basic-settings"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Back End </h3>    
               <p className="tool-box__text">
@@ -104,6 +107,7 @@ function App() {
 
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
+              <div className="badge badge--p3"></div>
               <i className="tool-box__icon icon-basic-gear"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Tools </h3>    
               <p className="tool-box__text">
@@ -137,9 +141,10 @@ function App() {
                 <img src={project_p1}  style={{width: '100%'}} ></img>
               </div>
               <div className="file__side file__side--back file__side--back-1">
-              <p className="paragraph"> 
-              This is a deliverable from my MSc Computer Science research. Essentially, Bantuweb is a document discovery and crowd-sourcing platform, of which I developed in efforts to translate articles extracted from Wikipedia to indigenous South Africa languages. This is done with participants' help. Also, I incorporated gratification as a means to motivate participants to contribute and engage more in BantuWeb. Other ways to contribute in the platform is by writing blogs/stories and uploading digital documents written in any of the indigenous South African languages.
-            </p>
+              
+                <a href="#" className="btn btn--blue btn--animated"><FaExternalLinkAlt /></a>
+                <a href="#" className="btn btn--white btn--animated"><FaGithub /> </a>
+              
               </div>
             </div>
           </div>

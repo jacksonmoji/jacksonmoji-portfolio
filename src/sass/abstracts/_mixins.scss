@@ -13,13 +13,21 @@
         animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
-        margin-left: 30px;
-        margin-top: 5px;
+
     
-        &:hover {
-            animation: none;
-            transform: translateY(-2rem) scale(1.25);
-        }
+        // &:hover {
+        //     animation: none;
+        //     transform: translateY(-2rem) scale(1.25);
+        // }
     }
     
+}
+
+@mixin adjusting_austronauts {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    background-repeat: no-repeat;
+    height: 20rem;
+  
 }

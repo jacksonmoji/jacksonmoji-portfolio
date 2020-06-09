@@ -18,15 +18,14 @@
         backface-visibility: hidden; //hides the backside of an image 
 
         &--front {
-            background-color: none;
+            background-color: transparent;
     
         }
     
         &--back {
             transform: rotateX(180deg);
-            &-1 {
-             
-            }
+            top:15%;
+            left:38%;
         }
     
     }

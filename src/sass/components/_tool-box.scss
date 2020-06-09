@@ -6,6 +6,7 @@
     text-align: center;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba( #000000, .15);
+    z-index: 20;
   
 
     &__icon {
@@ -27,8 +28,32 @@
         list-style: none;
     }
 
-
     @include floating
 
 
+}
+
+
+.badge {
+     
+    &--p1 {
+        @include adjusting_austronauts
+        background-image:  url(../img/front-end.png);
+        @include floating
+        // margin-left: 11rem;
+        // margin-top: -13px;
+        margin: -.8rem 0 0 6.5rem;
+    }
+    &--p2 {
+        @include adjusting_austronauts
+        background-image:  url(../img/back-end.png);
+        margin-top: -20.4rem;
+    }
+    &--p3 {
+        @include adjusting_austronauts
+        background-image:  url(../img/tools.png);
+        margin-top: -18.4rem;
+ 
+        
+    }
 }
