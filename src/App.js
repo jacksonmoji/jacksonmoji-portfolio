@@ -9,6 +9,23 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
+    <div className="navigation">
+      <input type="checkbox" className="navigation__checkbox" id="navi-toggle"/>
+      <label for="navi-toggle" className="navigation__button">
+        <span className="navigation__icon">&nbsp;</span>
+      </label>
+      <div className="navigation__background">&nbsp;</div>
+      <nav className="navigation__nav">
+        <ul className="navigation__list">
+          <li className="navigation__item"><a href="#" className="navigation__link">About</a></li>
+          <li className="navigation__item"><a href="#" className="navigation__link">Tools</a></li>
+          <li className="navigation__item"><a href="#" className="navigation__link">Projects</a></li>
+          <li className="navigation__item"><a href="#" className="navigation__link">Experience</a></li>
+          <li className="navigation__item"><a href="#" className="navigation__link">Education</a></li>
+        </ul>
+      </nav>
+    </div> 
      <div className="header">
       <div className="header__logo-box">
         <img src={logo} alt="logo" className="header__logo"></img>
@@ -27,7 +44,7 @@ function App() {
       <section className="section-about">
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">
-            A little about me
+           About
           </h2>    
         </div>
 

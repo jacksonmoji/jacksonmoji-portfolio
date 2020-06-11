@@ -31,3 +31,11 @@
     height: 20rem;
   
 }
+
+@mixin center_elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
