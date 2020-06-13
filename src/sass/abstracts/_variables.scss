@@ -16,12 +16,10 @@ $color-toolbox-1: #1c2d3c;
 $color-toolbox-2: #faebd7;
 $color-toolbox-3: #262b31;
 
-
 $color-white-gold: rgb(250, 235, 215);
 $color-rose-gold: #dabe85;
 $color-logo-background: #262b31;
 $color-hover-backdrop: rgba(0, 0, 0, 0.5); 
-
 
 //font
 
@@ -32,3 +30,30 @@ $default-font-size: 1.4rem;
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 6rem;
+
+//timeline
+$text: #1D1D26;
+$text-light: #77777D;
+
+
+$colors:  red #FF3467, blue #18D0BF, salmon #F48A6D, purple #C178FA;
+
+$timeline-padding-left-right: 6.2rem;
+$timeline-tracker-padding-right: 1.1rem;
+
+$timeline__item-padding-top-bottom: 6.2rem;
+
+$timeline__step-padding-right: 6.2rem;
+
+$timeline__step__marker-height: 2.4rem;
+$timeline__step__marker-width: 2.4rem;
+$timeline__step__marker-border-width: .4rem;
+
+$timeline__time-padding-right: 12.6rem;
+$timeline__time-font-size: 2.6rem;
+
+$timeline__title-padding-bottom: 2.6rem;
+$timeline__title-font-size: 3.2rem;
+
+$timeline__points-padding-bottom: 1.2rem;
+$timeline__points-font-size: 2.4rem;

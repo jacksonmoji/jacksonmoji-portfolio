@@ -1,3 +1,18 @@
+@import '//fonts.googleapis.com/css?family=Muli:300';
+/*
+
+0 - 600px: Phone
+600 - 900px: Tablet portrait
+900 - 1200px: Tablet landscape
+1200 - 1800px: is where our noraml styles apply
+1800px + : Big desktop
+
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
 *,
 *::after,
 *::before {
@@ -7,6 +22,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (min-width: 122.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
@@ -271,17 +295,17 @@ body {
 
 .composition {
   position: relative;
-  filter: drop-shadow(0 1.5rem 1.5rem rgba(0, 0, 0, 0.9)); }
+  filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.9)); }
   .composition__photo {
     position: absolute;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     z-index: 10;
     transition: all .2s;
-    outline-offset: 2rem;
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+    outline-offset: 2rem; }
     .composition__photo--p1 {
       left: 0%;
       top: 2rem; }
+      .composition__photo--p1 img {
+        border-radius: 2%; }
     .composition__photo--p2 {
       right: 10%;
       top: 10rem; }
@@ -289,7 +313,6 @@ body {
       left: 40%;
       top: 0rem; }
     .composition__photo:hover {
-      transform: scale(1.25);
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(1.05); }
@@ -299,7 +322,6 @@ body {
   padding: 10rem 0;
   font-size: 1.4rem;
   text-align: center;
-  clip-path: polygon(50% 25%, 100% 0%, 100% 100%, 0 100%, 0 0%);
   margin-top: -12%; }
   .footer__logo-box {
     margin-bottom: 8rem; }
@@ -356,8 +378,7 @@ body {
   /* makes sure that the background image is responsive to window size changes */
   background-position: bottom;
   /* makes sure that image top stays static with changes in window */
-  position: relative;
-  clip-path: polygon(100% 0, 100% 0%, 100% 75vh, 50% 100%, 0% 75vh, 0% 85%, 0 0); }
+  position: relative; }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -480,18 +501,55 @@ body {
   top: 0;
   transform: rotate(-45deg); }
 
+.timeline ul {
+  list-style-type: none; }
+
+.timeline li {
+  /* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
+  position: relative;
+  /* Use padding to space things out rather than margins as the line would get broken up otherwise */
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+  /* The actual line being placed before each list item, tweak width and color as appropriate */
+  /* Start the line further down on the first list item */
+  /* Stop the line short on the final list item */
+  /* Styles for the SVG bullet points */ }
+  .timeline li:before {
+    background-color: #c00;
+    width: 2px;
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 5px; }
+  .timeline li:first-child:before {
+    top: 15px; }
+  .timeline li:last-child:before {
+    height: 6px; }
+  .timeline li__bullet {
+    margin-left: -20px;
+    width: 12px;
+    fill: #c00;
+    float: left;
+    padding-right: 10px; }
+  .timeline li__bullet .timeline li--big {
+    width: 16px;
+    margin-left: -22px;
+    padding-right: 8px; }
+  .timeline li a {
+    color: #06e; }
+
 .section-about {
   background-color: #f7f7f7;
-  padding: 25rem 0;
-  margin-top: -20vh;
+  padding: 15rem 0;
   z-index: 8; }
 
 .section-tools {
-  padding: 20rem 0;
+  padding: 15rem 0;
   background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(../img/bg-5.png);
   background-size: cover;
   /* makes sure that the background image is responsive to window size changes */
-  clip-path: polygon(50% 0%, 100% -5%, 100% 75%, 50% 100%, 0% 75%, 0% -5%);
   z-index: 20; }
 
 .section-projects {

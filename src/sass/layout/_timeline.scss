@@ -1,0 +1,40 @@
+.timeline {
+
+    ul {
+        list-style-type: none;
+    }
+      
+    li {
+        /* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
+        position: relative;
+        
+        /* Use padding to space things out rather than margins as the line would get broken up otherwise */
+        margin: 0;
+        padding-bottom: 1em;
+        padding-left: 20px;
+        
+        
+        /* The actual line being placed before each list item, tweak width and color as appropriate */
+        &:before {
+            background-color: #c00;
+            width: 2px;
+            content: '';
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 5px;
+        }
+            
+        /* Start the line further down on the first list item */
+        &:first-child:before { top: 15px;  }
+        
+        /* Stop the line short on the final list item */
+        &:last-child:before { height: 6px; }
+            
+        /* Styles for the SVG bullet points */
+        &__bullet { margin-left: -20px; width: 12px; fill: #c00; float: left; padding-right: 10px }
+        &__bullet &--big { width: 16px; margin-left: -22px; padding-right: 8px }
+        
+        a { color: #06e; }
+    }
+}

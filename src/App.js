@@ -70,6 +70,15 @@ function App() {
             <div className="composition">
             {/* <div className="composition__photo composition__photo--p3"> <img src={pro_pic_3}/> </div> */}
             <div className="composition__photo composition__photo--p1"> <img src={pro_pic_1}/> </div>  
+            
+            </div>
+            <div className="composition__social">
+                <ul className="composition_list">
+                  <li className="composition__item"><a href="#" className="composition__link"><FaLinkedin /></a></li>
+                  <li className="composition__item"><a href="#" className="composition__link"><FaFacebook /></a></li>
+                  <li className="composition__item"><a href="#" className="composition__link"><FaTwitter /></a></li>
+                  <li className="composition__item"><a href="#" className="composition__link"><FaGithub /></a></li>
+                </ul>
             </div>
           </div>
         </div>
@@ -77,6 +86,12 @@ function App() {
       </section>
 
       <section className="section-tools">
+
+      <div className="u-center-text u-margin-bottom-big">
+          <h2 className="heading-secondary">
+            Skills
+          </h2>
+        </div>
 
         <div className="row">
           <div className="col-1-of-3">

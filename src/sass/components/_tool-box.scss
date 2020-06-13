@@ -37,20 +37,20 @@
 .badge {
      
     &--p1 {
-        @include adjusting_austronauts
+        @include adjusting_austronauts;
         background-image:  url(../img/front-end.png);
-        @include floating
+        @include floating;
         // margin-left: 11rem;
         // margin-top: -13px;
         margin: -.8rem 0 0 6.5rem;
     }
     &--p2 {
-        @include adjusting_austronauts
-        background-image:  url(../img/back-end.png);
+        @include adjusting_austronauts;
+        background-image: url(../img/back-end.png);
         margin-top: -20.4rem;
     }
     &--p3 {
-        @include adjusting_austronauts
+        @include adjusting_austronauts;
         background-image:  url(../img/tools.png);
         margin-top: -18.4rem;
  

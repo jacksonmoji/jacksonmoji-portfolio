@@ -1,22 +1,25 @@
 .composition {
     position: relative;
-    filter: drop-shadow(0 1.5rem 1.5rem rgba(0, 0, 0, .9));
+    filter: drop-shadow(0 .5rem .5rem rgba(0, 0, 0, .9));
     &__photo {
         position: absolute;
-        box-shadow: 0 1.5rem 4rem rgba( #000000, .4);
+        //box-shadow: 0 1.5rem 1rem rgba( #000000, .4);
         z-index: 10;
         transition: all .2s;
-        outline-offset: 2rem;
-   
+        outline-offset: 2rem;   
         //clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
         // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-
+        // clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        //clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 41% 75%, 17% 99%, 26% 75%, 0% 75%);
 
         &--p1 { 
             
             left: 0%;
             top: 2rem;
+            img {
+                border-radius: 2%;
+            }
+            
         }
 
         &--p2 {
@@ -32,7 +35,7 @@
         }
 
         &:hover {
-            transform: scale(1.25);
+            //transform: scale(1.25);
             z-index: 20;
         } 
    
