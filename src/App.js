@@ -67,8 +67,8 @@ function App() {
             {/* <a href="#" className="btn-text">Learn more &rarr;</a> */}
           </div>
           <div className="col-1-of-2">
-            <div className="composition">
-            {/* <div className="composition__photo composition__photo--p3"> <img src={pro_pic_3}/> </div> */}
+            {/* <div className="composition">
+             <div className="composition__photo composition__photo--p3"> <img src={pro_pic_3}/> </div> 
             <div className="composition__photo composition__photo--p1"> <img src={pro_pic_1}/> </div>  
             
             </div>
@@ -79,7 +79,7 @@ function App() {
                   <li className="composition__item"><a href="#" className="composition__link"><FaTwitter /></a></li>
                   <li className="composition__item"><a href="#" className="composition__link"><FaGithub /></a></li>
                 </ul>
-            </div>
+            </div> */}
           </div>
         </div>
 
