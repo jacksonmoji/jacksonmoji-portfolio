@@ -555,7 +555,7 @@ body {
   z-index: 8; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 7.5rem 0; } }
+      padding: 10rem 0; } }
 
 .section-tools {
   padding: 15rem 0;
@@ -565,9 +565,12 @@ body {
   z-index: 20; }
   @media (max-width: 56.25em) {
     .section-tools {
-      padding: 7.5rem 0; } }
+      padding: 10rem 0; } }
 
 .section-projects {
   background-color: #f7f7f7;
-  padding: 25rem 0 50rem 0;
+  padding: 15rem 0;
   margin-top: -21rem; }
+  @media (max-width: 56.25em) {
+    .section-projects {
+      padding: 10rem 0; } }
