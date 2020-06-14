@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './img/logo.png';
-import pro_pic_1 from './img/pro-pic-1.png';
 import project_p1 from './img/bantuweb-add-translation.png';
-import { FaSass, FaPhp, FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 import './App.css';
 
@@ -10,7 +9,20 @@ function App() {
   return (
     <div className="App">
 
-    <div className="navigation">
+     <div className="header">
+      <div className="header__logo-box">
+        <img src={logo} alt="logo" className="header__logo"></img>
+      </div>
+      <div className="header__text-box">
+        <h1 className="heading-primary"> 
+          <span className="heading-primary--main">Hi, I'm Jackson</span>
+          <span className="heading-primary--sub">I create software</span>
+        </h1>
+
+        <a href="#" className="btn btn--white btn--animated"> Lets work </a>
+      </div>
+     </div>
+     <div className="navigation">
       <input type="checkbox" className="navigation__checkbox" id="navi-toggle"/>
       <label for="navi-toggle" className="navigation__button">
         <span className="navigation__icon">&nbsp;</span>
@@ -26,20 +38,6 @@ function App() {
         </ul>
       </nav>
     </div> 
-     <div className="header">
-      <div className="header__logo-box">
-        <img src={logo} alt="logo" className="header__logo"></img>
-      </div>
-      <div className="header__text-box">
-        <h1 className="heading-primary"> 
-          <span className="heading-primary--main">Hi, I'm Jackson</span>
-          <span className="heading-primary--sub">I create software</span>
-        </h1>
-
-        <a href="#" className="btn btn--white btn--animated"> Lets work </a>
-      </div>
-     </div>
-
      <main>
       <section className="section-about">
         <div className="u-center-text u-margin-bottom-big">
@@ -216,7 +214,8 @@ function App() {
           </div>
         </div>
      </footer>
-{/* 
+     </div>
+/* 
      <section className="grid-test">
       <div className="row">
         <div className="col-1-of-2">
@@ -278,9 +277,7 @@ function App() {
           col 3 of 4
         </div>
       </div>
-    </section> */}
-
-    </div>
+    </section> */
   );
 }
 
