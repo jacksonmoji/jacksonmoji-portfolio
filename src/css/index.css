@@ -90,6 +90,7 @@ body {
 .heading-primary {
   color: antiquewhite;
   text-transform: uppercase;
+  text-align: justify;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
   .heading-primary--main {
@@ -125,18 +126,20 @@ body {
   color: transparent; }
   @media (max-width: 56.25em) {
     .heading-secondary {
-      font-size: 3rem; } }
-  @media (max-width: 37.5em) {
-    .heading-secondary {
-      font-size: 2.5rem; } }
+      font-size: 3rem;
+      text-align: center; } }
 
 .heading-tertiary {
   font-size: 1.4rem;
   font-weight: 700;
   text-transform: uppercase; }
+  @media (max-width: 56.25em) {
+    .heading-tertiary {
+      text-align: center; } }
 
 .paragraph {
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  text-align: justify; }
   .paragraph:not(:last-child) {
     margin-bottom: 3rem; }
 
@@ -220,8 +223,11 @@ body {
   padding: 0;
   background-repeat: no-repeat;
   height: 20rem;
-  background-image: url(../img/front-end.png);
   margin: -.8rem 0 0 6.5rem; }
+  @media (max-width: 56.25em) {
+    .badge--p1 img {
+      width: 30%;
+      margin-top: .8rem; } }
   .badge--p1--floating {
     animation-name: floating;
     animation-duration: 3s;
@@ -234,8 +240,11 @@ body {
   padding: 0;
   background-repeat: no-repeat;
   height: 20rem;
-  background-image: url(../img/back-end.png);
   margin-top: -20.4rem; }
+  @media (max-width: 56.25em) {
+    .badge--p2 img {
+      width: 24%;
+      margin-top: 6rem; } }
 
 .badge--p3 {
   background: transparent;
@@ -243,8 +252,11 @@ body {
   padding: 0;
   background-repeat: no-repeat;
   height: 20rem;
-  background-image: url(../img/tools.png);
   margin-top: -18.4rem; }
+  @media (max-width: 56.25em) {
+    .badge--p3 img {
+      width: 30%;
+      margin-top: 5rem; } }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -538,6 +550,9 @@ body {
   .footer__logo {
     width: 15rem;
     height: auto; }
+    @media (max-width: 56.25em) {
+      .footer__logo {
+        width: 10rem; } }
   .footer__list {
     list-style: none; }
   .footer__text--name {

@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './img/logo.png';
-import pro_pic_1 from './img/pro-pic-1.png'
+import badge_1 from './img/front-end.png';
+import badge_2 from './img/back-end.png';
+import badge_3 from './img/tools.png';
+import pro_pic_1 from './img/pro-pic-1.png';
 import project_p1 from './img/bantuweb-add-translation.png';
 import { FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
@@ -99,7 +102,7 @@ function App() {
         <div className="row">
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
-               
+           
               <i className="tool-box__icon icon-basic-webpage-multiple"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Front End </h3>    
               <p className="tool-box__text">
@@ -113,12 +116,12 @@ function App() {
               </p>
             
             </div>
-            <div className="badge badge--p1 badge--p1--floating"></div>
+            <div className="badge badge--p1 badge--p1--floating"><img src={badge_1} /></div>
           </div>
 
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
-              <div className="badge badge--p2"></div>
+              <div className="badge badge--p2"><img src={badge_2} /></div>
               <i className="tool-box__icon icon-basic-settings"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Back End </h3>    
               <p className="tool-box__text">
@@ -141,7 +144,7 @@ function App() {
 
           <div className="col-1-of-3">
             <div className="tool-box tool-box--floating">
-              <div className="badge badge--p3"></div>
+              <div className="badge badge--p3"><img src={badge_3} /></div>
               <i className="tool-box__icon icon-basic-gear"></i>
               <h3 className="heading-tertiary u-margin-bottom-small"> Tools </h3>    
               <p className="tool-box__text">

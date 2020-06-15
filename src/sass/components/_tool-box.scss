@@ -38,7 +38,13 @@
      
     &--p1 {
         @include adjusting_austronauts;
-        background-image:  url(../img/front-end.png);
+        img {
+            @include respond(tab-port){
+                width: 30%;
+                margin-top: .8rem;
+            }
+        }
+        //background-image:  url(../img/front-end.png);
         @include floating;
         // margin-left: 11rem;
         // margin-top: -13px;
@@ -46,14 +52,28 @@
     }
     &--p2 {
         @include adjusting_austronauts;
-        background-image: url(../img/back-end.png);
+       
+        //background-image: url(../img/back-end.png);
         margin-top: -20.4rem;
+
+        img {
+            @include respond(tab-port){
+                width: 24%;
+                margin-top: 6rem;
+            }
+        }
     }
     &--p3 {
         @include adjusting_austronauts;
-        background-image:  url(../img/tools.png);
+        //background-image:  url(../img/tools.png);
         margin-top: -18.4rem;
- 
+
+        img {
+            @include respond(tab-port){
+                width: 30%;
+                margin-top: 5rem;
+            }
+        }
         
     }
 }

@@ -9,7 +9,8 @@ body {
   
 .heading-primary {
 	color: $color-white-gold;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    text-align: justify;
 	backface-visibility: hidden;
     margin-bottom: 6rem;
 
@@ -61,22 +62,26 @@ body {
 
     @include respond(tab-port) {
         font-size: 3rem;
+        text-align: center;
     }
 
-
-    @include respond(phone){
-        font-size: 2.5rem;
-    }
 }
 
 .heading-tertiary {
     font-size: $default-font-size;
     font-weight: 700;
     text-transform: uppercase;
+
+    @include respond(tab-port) {
+        text-align: center;
+    }
+
 }
 
 .paragraph {
     font-size: $default-font-size;
+    text-align: justify;
+    
 
     &:not(:last-child) {
         margin-bottom: 3rem;
