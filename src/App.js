@@ -94,7 +94,7 @@ function App() {
       <section className="section-tools">
 
       <div className="u-center-text u-margin-bottom-big">
-          <h2 className="heading-secondary">
+          <h2 className="heading-secondary heading-secondary--tools">
             Skills
           </h2>
         </div>
