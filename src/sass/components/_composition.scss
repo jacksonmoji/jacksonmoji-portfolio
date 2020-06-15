@@ -1,8 +1,8 @@
 .composition {
-    position: relative;
+ 
     filter: drop-shadow(0 .5rem .5rem rgba(0, 0, 0, .9));
     &__photo {
-        position: absolute;
+      
         //box-shadow: 0 1.5rem 1rem rgba( #000000, .4);
         z-index: 10;
         transition: all .2s;
@@ -13,13 +13,13 @@
         //clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 41% 75%, 17% 99%, 26% 75%, 0% 75%);
 
         &--p1 { 
-            
-            left: 0%;
+            width:80%;
             top: 2rem;
-            img {
-                border-radius: 2%;
-            }
+
+            @include respond(tab-port){
+                width:100%;
             
+            }
         }
 
         &--p2 {

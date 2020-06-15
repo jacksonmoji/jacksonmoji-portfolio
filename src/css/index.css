@@ -163,20 +163,27 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 50rem; }
+  @media (max-width: 56.25em) {
+    .file {
+      height: 25rem; } }
   .file__side {
     height: 50rem;
     transition: all 1s ease-in-out;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     backface-visibility: hidden; }
     .file__side--front {
       background-color: transparent; }
+      .file__side--front img {
+        width: 100%; }
     .file__side--back {
       transform: rotateX(180deg);
       top: 15%;
       left: 38%; }
+    @media (max-width: 56.25em) {
+      .file__side {
+        height: 25rem; } }
   .file:hover .file__side--front {
     transform: rotateX(-180deg); }
   .file:hover .file__side--back {
@@ -312,18 +319,17 @@ body {
   border-radius: .5rem; }
 
 .composition {
-  position: relative;
   filter: drop-shadow(0 0.5rem 0.5rem rgba(0, 0, 0, 0.9)); }
   .composition__photo {
-    position: absolute;
     z-index: 10;
     transition: all .2s;
     outline-offset: 2rem; }
     .composition__photo--p1 {
-      left: 0%;
+      width: 80%;
       top: 2rem; }
-      .composition__photo--p1 img {
-        border-radius: 2%; }
+      @media (max-width: 56.25em) {
+        .composition__photo--p1 {
+          width: 100%; } }
     .composition__photo--p2 {
       right: 10%;
       top: 10rem; }
@@ -569,8 +575,7 @@ body {
 
 .section-projects {
   background-color: #f7f7f7;
-  padding: 15rem 0;
-  margin-top: -21rem; }
+  padding: 15rem 0; }
   @media (max-width: 56.25em) {
     .section-projects {
       padding: 10rem 0; } }

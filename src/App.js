@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './img/logo.png';
+import pro_pic_1 from './img/pro-pic-1.png'
 import project_p1 from './img/bantuweb-add-translation.png';
 import { FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
@@ -47,6 +48,25 @@ function App() {
         </div>
 
         <div className="row">
+        
+          <div className="col-1-of-2">
+            <div className="composition">
+         
+            <img className="composition__photo composition__photo--p1" src={pro_pic_1}/>  
+            
+            </div>
+            <div className="composition__social">
+                <ul className="composition_list">
+                  <li className="composition__item"><a href="#" className="composition__link"><FaLinkedin /></a></li>
+                  <li className="composition__item"><a href="#" className="composition__link"><FaFacebook /></a></li>
+                  <li className="composition__item"><a href="#" className="composition__link"><FaTwitter /></a></li>
+                  <li className="composition__item"><a href="#" className="composition__link"><FaGithub /></a></li>
+                </ul>
+            </div>
+
+            
+          </div>
+
           <div className="col-1-of-2">
             <h3 className="heading-tertiary u-margin-bottom-small">Jackson Thapelo Moji</h3>    
             <p className="paragraph">
@@ -63,21 +83,6 @@ function App() {
             </p>
 
             {/* <a href="#" className="btn-text">Learn more &rarr;</a> */}
-          </div>
-          <div className="col-1-of-2">
-            {/* <div className="composition">
-             <div className="composition__photo composition__photo--p3"> <img src={pro_pic_3}/> </div> 
-            <div className="composition__photo composition__photo--p1"> <img src={pro_pic_1}/> </div>  
-            
-            </div>
-            <div className="composition__social">
-                <ul className="composition_list">
-                  <li className="composition__item"><a href="#" className="composition__link"><FaLinkedin /></a></li>
-                  <li className="composition__item"><a href="#" className="composition__link"><FaFacebook /></a></li>
-                  <li className="composition__item"><a href="#" className="composition__link"><FaTwitter /></a></li>
-                  <li className="composition__item"><a href="#" className="composition__link"><FaGithub /></a></li>
-                </ul>
-            </div> */}
           </div>
         </div>
 
@@ -167,7 +172,7 @@ function App() {
           <div className="col-2-of-4">
             <div className="file">
               <div className="file__side file__side--front">
-                <img src={project_p1}  style={{width: '100%'}} ></img>
+                <img src={project_p1} ></img>
               </div>
               <div className="file__side file__side--back file__side--back-1">
               
