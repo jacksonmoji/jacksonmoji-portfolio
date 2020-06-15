@@ -90,7 +90,6 @@ body {
 .heading-primary {
   color: antiquewhite;
   text-transform: uppercase;
-  text-align: justify;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
   .heading-primary--main {

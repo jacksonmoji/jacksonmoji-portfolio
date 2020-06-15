@@ -10,7 +10,6 @@ body {
 .heading-primary {
 	color: $color-white-gold;
     text-transform: uppercase;
-    text-align: justify;
 	backface-visibility: hidden;
     margin-bottom: 6rem;
 
@@ -63,7 +62,7 @@ body {
     &--tools {
         color: $color-white-gold;
     }
-    
+
     @include respond(tab-port) {
         font-size: 3rem;
         text-align: center;
