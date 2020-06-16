@@ -1,4 +1,5 @@
 @import '//fonts.googleapis.com/css?family=Muli:300';
+@import '//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 /*
 
 0 - 600px: Phone
@@ -206,6 +207,8 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   z-index: 20; }
+  .tool-box .checked {
+    color: #dabe85; }
   @media (max-width: 56.25em) {
     .tool-box {
       margin-top: 9rem; } }

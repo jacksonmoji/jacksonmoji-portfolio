@@ -105,11 +105,46 @@ function App() {
               <h3 className="heading-tertiary u-margin-bottom-small"> Front End </h3>    
               <p className="tool-box__text">
                 <ul>
-                  <li>JavaScript</li>
-                  <li>CSS - SASS - HTML - XML</li>
-                  <li>React</li>
-                  <li>Angular</li>
-                  <li>Bootstrap</li>
+                  <li>JavaScript 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>CSS - SASS - HTML - XML 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>React 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Angular 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Bootstrap 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
                 </ul>
               </p>
             
@@ -124,16 +159,86 @@ function App() {
               <h3 className="heading-tertiary u-margin-bottom-small"> Back End </h3>    
               <p className="tool-box__text">
               <ul>
-                  <li>PHP</li>
-                  <li>Python</li>
-                  <li>Java</li>
-                  <li>SQL - MySQL / PostgreSQL</li>
-                  <li>NoSQL - MongoDB / ElasticSearch</li>
-                  <li>Redis</li>
-                  <li>Django</li>
-                  <li>Laravel</li>
-                  <li>Magento</li>
-                  <li>NodeJs</li>
+                  <li>PHP 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Python 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Java 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>SQL - MySQL / PostgreSQL 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>NoSQL - MongoDB / ElasticSearch 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Redis 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Django 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Laravel 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Magento 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>NodeJs 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
                 </ul>
               </p>
 
@@ -147,11 +252,46 @@ function App() {
               <h3 className="heading-tertiary u-margin-bottom-small"> Tools </h3>    
               <p className="tool-box__text">
               <ul>
-                  <li>AWS</li>
-                  <li>Git - Github</li>
-                  <li>NPM - Yarn</li>
-                  <li>Linux</li>
-                  <li>Apache</li>
+                  <li>AWS 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Git - Github 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>NPM - Yarn 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Linux 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
+                  <li>Apache 
+                   &nbsp;
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  </li>
                 </ul>
               </p>
 
