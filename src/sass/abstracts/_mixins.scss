@@ -12,6 +12,12 @@
         list-style: none;
     }
 
+    li {
+        @include respond(tab-port){
+            font-size: 4.4rem;
+        }
+    }
+
     &__item {
         display: inline-block;
         &:not(:last-child) {
