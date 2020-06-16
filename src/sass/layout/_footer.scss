@@ -19,28 +19,6 @@
         }
     }
 
-    &__social {
-
-    }
-
-    &__list {
-        list-style: none;
-    }
-
-    &__text {
-        &--name{
-            color: $color-rose-gold;
-            text-transform: uppercase;
-        }
-    }
-
-    &__item {
-        display: inline-block;
-        &:not(:last-child) {
-            margin-right: 1.5rem;
-        }
-    }
-
     &__link {
         &:link,
         &:visited {
@@ -56,4 +34,13 @@
            
         }
     }
+
+    &__text {
+        &--name{
+            color: $color-rose-gold;
+            text-transform: uppercase;
+        }
+    }
+
+    @include social_links;
 }

@@ -6,6 +6,21 @@
     }
 }
 
+@mixin social_links {
+
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline-block;
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+}
+
 @mixin floating {
     
     &--floating {  

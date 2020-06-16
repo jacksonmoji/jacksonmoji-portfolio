@@ -7,7 +7,9 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba( #000000, .15);
     z-index: 20;
-  
+    @include respond(tab-port){
+        margin-top: 9rem;
+    }
 
     &__icon {
         display: inline-block;

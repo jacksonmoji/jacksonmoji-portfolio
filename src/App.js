@@ -44,7 +44,7 @@ function App() {
     </div> 
      <main>
       <section className="section-about">
-        <div className="u-center-text u-margin-bottom-big">
+        <div className="u-center-text u-margin-bottom-big--about">
           <h2 className="heading-secondary">
            About
           </h2>    
@@ -59,15 +59,13 @@ function App() {
             
             </div>
             <div className="composition__social">
-                <ul className="composition_list">
+                <ul className="composition composition_list">
                   <li className="composition__item"><a href="#" className="composition__link"><FaLinkedin /></a></li>
                   <li className="composition__item"><a href="#" className="composition__link"><FaFacebook /></a></li>
                   <li className="composition__item"><a href="#" className="composition__link"><FaTwitter /></a></li>
                   <li className="composition__item"><a href="#" className="composition__link"><FaGithub /></a></li>
                 </ul>
             </div>
-
-            
           </div>
 
           <div className="col-1-of-2">
