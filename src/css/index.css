@@ -398,6 +398,79 @@ body {
 .composition__link:hover, .composition__link:active {
   transform: translateY(-0.7rem); }
 
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 120rem;
+  margin: 0 auto;
+  /* The actual timeline (the vertical ruler) */
+  /* Container around content */ }
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: .6rem;
+    background-color: #f8f8f8;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -.3rem; }
+  .timeline__container {
+    padding: 1rem 4rem;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    /* The circles on the timeline */
+    /* Place the container to the left */
+    /* Place the container to the right */
+    /* The actual content */ }
+    .timeline__container::after {
+      content: '';
+      position: absolute;
+      width: 2.5rem;
+      height: 2.5rem;
+      right: -1.2rem;
+      background-color: #f8f8f8;
+      border: .4rem solid #faebd7;
+      top: 1.5rem;
+      border-radius: 50%;
+      z-index: 1; }
+    .timeline__container--left {
+      left: 0;
+      /* Add arrows to the left container (pointing right) */ }
+      .timeline__container--left::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 2.2rem;
+        width: 0;
+        z-index: 1;
+        right: 3rem;
+        border: medium solid white;
+        border-width: 1rem 0 1rem 1rem;
+        border-color: transparent transparent transparent #35786f; }
+    .timeline__container--right {
+      left: 50%;
+      /* Add arrows to the right container (pointing left) */
+      /* Fix the circle for containers on the right side */ }
+      .timeline__container--right::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: 2.2rem;
+        width: 0;
+        z-index: 1;
+        left: 3rem;
+        border: medium solid white;
+        border-width: 1rem 1rem 1rem 0;
+        border-color: transparent #35786f transparent transparent; }
+      .timeline__container--right::after {
+        left: -1.2rem; }
+    .timeline__container .content {
+      padding: 2rem 3rem;
+      background-color: white;
+      position: relative;
+      border-radius: .6rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -620,11 +693,14 @@ body {
 
 .section-about {
   background-color: #f7f7f7d2;
-  padding: 15rem 0;
+  padding: 10rem 0;
   z-index: 8; }
   @media (max-width: 56.25em) {
     .section-about {
       padding: 10rem 0; } }
+
+.section-experience {
+  padding: 10rem 0; }
 
 .section-tools {
   padding: 15rem 0;
