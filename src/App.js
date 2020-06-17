@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './img/logo.png';
+import logo_1 from './img/logo/logo_1.png';
 import badge_1 from './img/front-end.png';
 import badge_2 from './img/back-end.png';
 import badge_3 from './img/tools.png';
@@ -15,7 +15,7 @@ function App() {
 
      <div className="header">
       <div className="header__logo-box">
-        <img src={logo} alt="logo" className="header__logo"></img>
+        <img srcset={logo_1} alt="logo" className="header__logo" />
       </div>
       <div className="header__text-box">
         <h1 className="heading-primary"> 
@@ -338,7 +338,7 @@ function App() {
 
      <footer className="footer">
        <div className="footer__logo-box">
-         <img src={logo} alt="logo" className="footer__logo"></img>
+         <img src={logo_1} alt="logo" className="footer__logo"></img>
        </div>
        <div className="row">
           <div className="col-2-of-4">

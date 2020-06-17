@@ -37,7 +37,7 @@ html {
 
 body {
   box-sizing: border-box;
-  padding: 3rem; }
+  padding: 0rem; }
   @media (max-width: 56.25em) {
     body {
       padding: 0; } }
@@ -216,7 +216,7 @@ body {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   z-index: 20; }
   .tool-box .checked {
-    color: #dabe85; }
+    color: #f5e1da; }
   @media (max-width: 56.25em) {
     .tool-box {
       margin-top: 9rem; } }
@@ -307,7 +307,7 @@ body {
     background-color: #262b31; }
 
 .btn--blue {
-  background-color: #dabe85;
+  background-color: #f5e1da;
   color: #777;
   margin: 2rem; }
 
@@ -439,7 +439,7 @@ body {
     width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(31, 29, 29, 0.8), rgba(31, 29, 29, 0.8)), url(../img/bg-7.png);
   background-size: cover;
   /* makes sure that the background image is responsive to window size changes */
@@ -448,10 +448,10 @@ body {
   position: relative; }
   .header__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem; }
+    top: 1rem;
+    left: 1rem; }
   .header__logo {
-    height: 6.5rem; }
+    height: 10rem; }
   .header__text-box {
     position: absolute;
     top: 50%;
@@ -555,7 +555,7 @@ body {
   .navigation__icon, .navigation__icon::before, .navigation__icon::after {
     width: 3rem;
     height: 2px;
-    background-color: #dabe85;
+    background-color: #f5e1da;
     display: inline-block; }
   .navigation__icon::before, .navigation__icon::after {
     content: "";
@@ -599,14 +599,14 @@ body {
       .footer__logo {
         width: 10rem; } }
   .footer__link:link, .footer__link:visited {
-    color: #dabe85;
+    color: rgba(64, 166, 151, 0.639);
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
   .footer__link:hover, .footer__link:active {
     color: antiquewhite; }
   .footer__text--name {
-    color: #dabe85;
+    color: #f5e1da;
     text-transform: uppercase; }
   .footer__list {
     list-style: none; }
