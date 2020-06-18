@@ -95,7 +95,7 @@ function App() {
            Experience
           </h2>    
       </div>
-      <div class="timeline">
+      <div class="row timeline">
         <div class="timeline__container timeline__container--left">
           <div class="content">
             <h1>A24 GROUP</h1>

@@ -5,8 +5,6 @@
 /* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 120rem;
-    margin: 0 auto;
   
     /* The actual timeline (the vertical ruler) */
     &::after {
@@ -18,12 +16,17 @@
         bottom: 0;
         left: 50%;
         margin-left: -.3rem;
+
+        @include respond(tab-port) {
+            left: 0rem;
+        }
+            
     }
 
 
     /* Container around content */
     &__container {
-        padding: 1rem 4rem;
+        //padding-: 1rem 4rem;
         position: relative;
         background-color: inherit;
         width: 50%;
@@ -42,9 +45,15 @@
             z-index: 1;
         }
 
+        @include respond(tab-port) {
+            width: 100%;
+      
+        }
+
         /* Place the container to the left */
         &--left {
             left: 0;
+            padding-right: 5rem;
 
             /* Add arrows to the left container (pointing right) */
             &::before {
@@ -59,11 +68,35 @@
                 border-width: 1rem 0 1rem 1rem;
                 border-color: transparent transparent transparent #35786f;
             }
+
+            @include respond(tab-port){
+                
+                padding-left: 1rem;
+                padding-right: 0rem;
+                left: 0%;
+                padding-top: 2rem;
+                
+                &::before {
+
+                    left: -1rem;
+                    border: medium solid white;
+                    border-width: 1rem 1rem 1rem 0;
+                    border-color: transparent #35786f transparent transparent;
+                }
+            }
+
+            &::after {
+                @include respond(tab-port){
+                    left: -4.2rem;
+                    padding-right: 0rem;
+                }
+            }
         }
         
         /* Place the container to the right */
         &--right {
             left: 50%;
+            padding-left: 5rem;
 
                 /* Add arrows to the right container (pointing left) */
             &::before {
@@ -79,22 +112,36 @@
                 border-color: transparent #35786f transparent transparent;
             }
 
+            @include respond(tab-port){
+                padding-left: 1rem;
+                left: 0%;
+                padding-top:2rem;
+
+                &::before {
+                    left: -1rem;
+                }
+            }
+
             /* Fix the circle for containers on the right side */
             &::after {
                 left:  -1.2rem;
+
+                @include respond(tab-port){
+                    left: -4.2rem;
+                    padding-left: 0;
+                }
             }
         }
         
         /* The actual content */
         .content {
-            padding: 2rem 3rem;
+           
             background-color: white;
             position: relative;
             border-radius: .6rem;
         }
   
     }
-
 
 }
 
