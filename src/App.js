@@ -3,7 +3,7 @@ import logo_1 from './img/logo/logo_1.png';
 import badge_1 from './img/front-end.png';
 import badge_2 from './img/back-end.png';
 import badge_3 from './img/tools.png';
-import pro_pic_1 from './img/pro-pic-1.png';
+import pro_pic_1 from './img/profile-pic3.png';
 import project_p1 from './img/bantuweb-add-translation.png';
 import { FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
@@ -89,47 +89,70 @@ function App() {
 
       </section>
 
-<section className="section-experience">
-      <div className="u-center-text u-margin-bottom-big--about">
+      <section className="section-education">
+        <div className="u-center-text u-margin-bottom-big--about">
+          <h1 className="heading-secondary">
+           Education
+          </h1>    
+        </div>
+        <div className="row">
+          <div className="col-1-of-2">
+            <h2>UNIVERSITY OF SUNDERLAND</h2>
+            <h3 className="heading-tertiary u-margin-bottom-small"> BSc (Hons) COMPUTER SYSTEMS ENGINEERING </h3>  
+            <p> 2:1 </p>    
+            <p> 09/2011 - 07/2015 </p>          
+          </div>
+          <div className="col-1-of-2">
+          <h2>UNIVERSITY OF CAPE TOWN</h2>
+            <h3 className="heading-tertiary u-margin-bottom-small"> MSC COMPUTER SCIENCE </h3>  
+            <p> - </p>    
+            <p> Busy with Dissertation </p>          
+
+          </div>
+        </div>
+      </section>
+
+      <section className="section-experience">
+        <div className="u-center-text u-margin-bottom-big--about">
           <h2 className="heading-secondary">
            Experience
           </h2>    
-      </div>
-      <div class="row timeline">
-        <div class="timeline__container timeline__container--left">
-          <div class="content">
-            <h1>A24 GROUP</h1>
-            <h2>SOFWARE ENGINEER</h2>
-            <h3>10/2019 - Present</h3>
-            <p className="paragraph">Working on a legacy enterprise system for recruitment processes in the health industry. We are currently maintaining the a24group enterprise system which will be phased out over-time implementing new and up to date technologies using Node.js, React.js, and MongoDB from PHP and relational databases (MySQL, MSSQL ).</p>
+        </div>
+        <div class="row timeline">
+          <div class="timeline__container timeline__container--left">
+            <div class="content">
+              <h1>A24 GROUP</h1>
+              <h2>SOFWARE ENGINEER</h2>
+              <h3>10/2019 - Present</h3>
+              <p className="paragraph">Working on a legacy enterprise system for recruitment processes in the health industry. We are currently maintaining the a24group enterprise system which will be phased out over-time implementing new and up to date technologies using Node.js, React.js, and MongoDB from PHP and relational databases (MySQL, MSSQL ).</p>
+            </div>
+          </div>
+          <div class="timeline__container timeline__container--right">
+            <div class="content">
+              <h1>THOUGHT EXPRESS</h1>
+              <h2>SOFWARE ENGINEER | BUSINESS PROCESS ENGINEER</h2>
+              <h3>01/2019 - 11/2019</h3>
+              <p className="paragraph">Successfully finished leading data migration/conversion from client's Oracle DBMS to Thought Express's System. Delivering the milestones before the deadlines. We believe in under-promising and over-delivering. Below are the activities performed in my role: Lead the business requirements analysis, design, development and quality assurance of technical/business solutions. Reviewed and re-designed existing processes to provide faster and more effective solutions. Engaged with clients in understanding the particular business needs/problems they needed to solve in relation to their business processes. Combined analytical thinking with process understanding to meet and solve problems. Collaborated internally with the project team to design and build the proposed business process solution. Worked individually towards my own deadlines while simultaneously engaging with the team in achieving collective goals and deadlines.</p>
+            </div>
+          </div>
+          <div class="timeline__container timeline__container--left">
+            <div class="content">
+              <h1>SQLI</h1>
+              <h2>WEB DEVELOPER</h2>
+              <h3>06/2018 - 01/2019</h3>
+              <p className="paragraph">Developed extensions and applications in PHP Developed integrations from 3rd party systems into our systems Performed code reviews and design reviews from team members Provided input regarding new web technologies Performed Troubleshooting and fixed problems Reviewed and participated in testing Worked with customer service to correct issues identified by users</p>
+            </div>
+          </div>
+          <div class="timeline__container timeline__container--right">
+            <div class="content">
+              <h1>OPEN SOFTWARE</h1>
+              <h2>JUNIOR WEB DEVELOPER</h2>
+              <h3>06/2015 - 03/2017</h3>
+              <p className="paragraph">Successfully finished leading data migration/conversion from client's Oracle DBMS to Thought Express's System. Delivering the milestones before the deadlines. We believe in under-promising and over-delivering. Below are the activities performed in my role: Lead the business requirements analysis, design, development and quality assurance of technical/business solutions. Reviewed and re-designed existing processes to provide faster and more effective solutions. Engaged with clients in understanding the particular business needs/problems they needed to solve in relation to their business processes. Combined analytical thinking with process understanding to meet and solve problems. Collaborated internally with the project team to design and build the proposed business process solution. Worked individually towards my own deadlines while simultaneously engaging with the team in achieving collective goals and deadlines.</p>
+            </div>
           </div>
         </div>
-        <div class="timeline__container timeline__container--right">
-          <div class="content">
-            <h1>THOUGHT EXPRESS</h1>
-            <h2>SOFWARE ENGINEER | BUSINESS PROCESS ENGINEER</h2>
-            <h3>01/2019 - 11/2019</h3>
-            <p className="paragraph">Successfully finished leading data migration/conversion from client's Oracle DBMS to Thought Express's System. Delivering the milestones before the deadlines. We believe in under-promising and over-delivering. Below are the activities performed in my role: Lead the business requirements analysis, design, development and quality assurance of technical/business solutions. Reviewed and re-designed existing processes to provide faster and more effective solutions. Engaged with clients in understanding the particular business needs/problems they needed to solve in relation to their business processes. Combined analytical thinking with process understanding to meet and solve problems. Collaborated internally with the project team to design and build the proposed business process solution. Worked individually towards my own deadlines while simultaneously engaging with the team in achieving collective goals and deadlines.</p>
-          </div>
-        </div>
-        <div class="timeline__container timeline__container--left">
-          <div class="content">
-            <h1>SQLI</h1>
-            <h2>WEB DEVELOPER</h2>
-            <h3>06/2018 - 01/2019</h3>
-            <p className="paragraph">Developed extensions and applications in PHP Developed integrations from 3rd party systems into our systems Performed code reviews and design reviews from team members Provided input regarding new web technologies Performed Troubleshooting and fixed problems Reviewed and participated in testing Worked with customer service to correct issues identified by users</p>
-          </div>
-        </div>
-        <div class="timeline__container timeline__container--right">
-          <div class="content">
-            <h1>OPEN SOFTWARE</h1>
-            <h2>JUNIOR WEB DEVELOPER</h2>
-            <h3>06/2015 - 03/2017</h3>
-            <p className="paragraph">Successfully finished leading data migration/conversion from client's Oracle DBMS to Thought Express's System. Delivering the milestones before the deadlines. We believe in under-promising and over-delivering. Below are the activities performed in my role: Lead the business requirements analysis, design, development and quality assurance of technical/business solutions. Reviewed and re-designed existing processes to provide faster and more effective solutions. Engaged with clients in understanding the particular business needs/problems they needed to solve in relation to their business processes. Combined analytical thinking with process understanding to meet and solve problems. Collaborated internally with the project team to design and build the proposed business process solution. Worked individually towards my own deadlines while simultaneously engaging with the team in achieving collective goals and deadlines.</p>
-          </div>
-        </div>
-      </div>
-     </section>
+      </section>
       <section className="section-tools">
 
       <div className="u-center-text u-margin-bottom-big">

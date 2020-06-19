@@ -407,7 +407,7 @@ body {
     content: '';
     position: absolute;
     width: .6rem;
-    background-color: #f8f8f8;
+    background-color: #777777;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -430,7 +430,7 @@ body {
       height: 2.5rem;
       right: -1.2rem;
       background-color: #f8f8f8;
-      border: .4rem solid #faebd7;
+      border: .4rem solid #35786e;
       top: 1.5rem;
       border-radius: 50%;
       z-index: 1; }
@@ -497,7 +497,7 @@ body {
             left: -4.2rem;
             padding-left: 0; } }
     .timeline__container .content {
-      background-color: white;
+      background-color: #f7f7f7d2;
       position: relative;
       border-radius: .6rem; }
 
@@ -733,8 +733,13 @@ body {
     .section-about {
       padding: 10rem 0; } }
 
+.section-education {
+  padding: 10rem 0;
+  text-align: center; }
+
 .section-experience {
-  padding: 10rem 0; }
+  padding: 10rem 0;
+  background-color: #f7f7f7d2; }
 
 .section-tools {
   padding: 15rem 0;
