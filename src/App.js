@@ -23,7 +23,9 @@ function App() {
           <span className="heading-primary--sub">I develop software</span>
         </h1>
 
-        <a href="#" className="btn btn--white btn--animated"> Lets work </a>
+        <a href="#projects" className="btn btn__bicolor--antiquewhite btn--animated">  Resume </a>
+        <a href="#projects" className="btn btn__bicolor--dark btn--animated"> My Work </a>
+
       </div>
      </div>
      <div className="navigation">
@@ -34,16 +36,16 @@ function App() {
       <div className="navigation__background">&nbsp;</div>
       <nav className="navigation__nav">
         <ul className="navigation__list">
-          <li className="navigation__item"><a href="#" className="navigation__link">About</a></li>
-          <li className="navigation__item"><a href="#" className="navigation__link">Tools</a></li>
-          <li className="navigation__item"><a href="#" className="navigation__link">Projects</a></li>
-          <li className="navigation__item"><a href="#" className="navigation__link">Experience</a></li>
-          <li className="navigation__item"><a href="#" className="navigation__link">Education</a></li>
+          <li className="navigation__item"><a href="#about" className="navigation__link">About</a></li>
+          <li className="navigation__item"><a href="#education" className="navigation__link">Education</a></li>
+          <li className="navigation__item"><a href="#experience" className="navigation__link">Experience</a></li>
+          <li className="navigation__item"><a href="#tools" className="navigation__link">Tools</a></li>
+          <li className="navigation__item"><a href="#projects" className="navigation__link">Projects</a></li>
         </ul>
       </nav>
     </div> 
      <main>
-      <section className="section-about">
+      <section className="section-about" id="about">
         <div className="u-center-text u-margin-bottom-big--about">
           <h2 className="heading-secondary">
            About
@@ -89,7 +91,7 @@ function App() {
 
       </section>
 
-      <section className="section-education">
+      <section className="section-education" id="education">
         <div className="u-center-text u-margin-bottom-big--about">
           <h1 className="heading-secondary">
            Education
@@ -114,7 +116,7 @@ function App() {
         </div>
       </section>
 
-      <section className="section-experience">
+      <section className="section-experience" id="experience">
         <div className="u-center-text u-margin-bottom-big--about">
           <h2 className="heading-secondary">
            Experience
@@ -155,7 +157,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="section-tools">
+      <section className="section-tools" id="tools">
 
       <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary heading-secondary--tools">
@@ -369,7 +371,7 @@ function App() {
 
       </section>
 
-      <section className="section-projects">
+      <section className="section-projects" id="projects">
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">
             Projects

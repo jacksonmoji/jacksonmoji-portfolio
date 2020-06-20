@@ -6,6 +6,7 @@
         text-transform: uppercase;
         text-decoration: none;
         padding: 1.5rem 1.5rem;
+        margin: auto 1rem;
         display: inline-block;
         border-radius: .5rem;
         transition: all .2s;
@@ -32,15 +33,31 @@
         box-shadow: 0 .5rem 1rem $color-hover-backdrop;
     }
 
-    &--white {
-        background-color: $color-logo-background;
-        color: $color-white-gold;
+    &__bicolor {
 
-        &::after {
-            background-color: $color-logo-background;
+        &--antiquewhite {
+
+            background-color: $color-white-gold;
+            color: $color-logo-background;
+    
+            &::after {
+                background-color: $color-white-gold;
+            }
         }
 
+        &--dark {
+
+            background-color: $color-logo-background;
+            color: $color-white-gold;
+    
+            &::after {
+                background-color: $color-logo-background;
+            }
+        }
+
+
     }
+
     &--blue {
        
         // rgba(130, 94, 38, 0.9), rgba(102, 142, 271, 0.9)

@@ -283,6 +283,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   padding: 1.5rem 1.5rem;
+  margin: auto 1rem;
   display: inline-block;
   border-radius: .5rem;
   transition: all .2s;
@@ -301,10 +302,16 @@ body {
   transform: translateY(-0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
 
-.btn--white {
+.btn__bicolor--antiquewhite {
+  background-color: antiquewhite;
+  color: #262b31; }
+  .btn__bicolor--antiquewhite::after {
+    background-color: antiquewhite; }
+
+.btn__bicolor--dark {
   background-color: #262b31;
   color: antiquewhite; }
-  .btn--white::after {
+  .btn__bicolor--dark::after {
     background-color: #262b31; }
 
 .btn--blue {
