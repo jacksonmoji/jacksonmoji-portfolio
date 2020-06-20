@@ -91,6 +91,7 @@ body {
 .heading-primary {
   color: antiquewhite;
   text-transform: uppercase;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
   .heading-primary--main {

@@ -20,7 +20,7 @@ function App() {
       <div className="header__text-box">
         <h1 className="heading-primary"> 
           <span className="heading-primary--main">Hi, I'm Jackson</span>
-          <span className="heading-primary--sub">I create software</span>
+          <span className="heading-primary--sub">I develop software</span>
         </h1>
 
         <a href="#" className="btn btn--white btn--animated"> Lets work </a>
@@ -97,18 +97,20 @@ function App() {
         </div>
         <div className="row">
           <div className="col-1-of-2">
-            <h2>UNIVERSITY OF SUNDERLAND</h2>
-            <h3 className="heading-tertiary u-margin-bottom-small"> BSc (Hons) COMPUTER SYSTEMS ENGINEERING </h3>  
-            <p> 2:1 </p>    
-            <p> 09/2011 - 07/2015 </p>          
-          </div>
-          <div className="col-1-of-2">
-          <h2>UNIVERSITY OF CAPE TOWN</h2>
+            <h2>UNIVERSITY OF CAPE TOWN</h2>
             <h3 className="heading-tertiary u-margin-bottom-small"> MSC COMPUTER SCIENCE </h3>  
             <p> - </p>    
             <p> Busy with Dissertation </p>          
 
           </div>
+
+          <div className="col-1-of-2">
+            <h2>UNIVERSITY OF SUNDERLAND</h2>
+            <h3 className="heading-tertiary u-margin-bottom-small"> BSc (Hons) COMPUTER SYSTEMS ENGINEERING </h3>  
+            <p> 2:1 </p>    
+            <p> 09/2011 - 07/2015 </p>          
+          </div>
+  
         </div>
       </section>
 
