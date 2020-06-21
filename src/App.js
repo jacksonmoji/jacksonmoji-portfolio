@@ -384,10 +384,8 @@ function App() {
                 <img src={project_p1} ></img>
               </div>
               <div className="file__side file__side--back file__side--back-1">
-              
-                <a href="#" className="btn btn--blue btn--animated"><FaExternalLinkAlt /></a>
-                <a href="#" className="btn btn--white btn--animated"><FaGithub /> </a>
-              
+                <a href="http://ec2-52-87-247-222.compute-1.amazonaws.com/" className="btn btn--blue btn--animated"><FaExternalLinkAlt /></a>
+                <a href="#" className="btn btn--dark btn--animated"><FaGithub /> </a>
               </div>
             </div>
           </div>
