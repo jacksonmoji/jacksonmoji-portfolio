@@ -5,7 +5,7 @@ import badge_2 from './img/back-end.png';
 import badge_3 from './img/tools.png';
 import pro_pic_1 from './img/profile-pic3.png';
 import project_p1 from './img/bantuweb-add-translation.png';
-import { FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import { FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstrap, FaGithub, FaExternalLinkAlt, FaEnvelope } from 'react-icons/fa';
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 import './App.css';
 
@@ -62,10 +62,10 @@ function App() {
             </div>
             <div className="composition__social">
                 <ul className="composition composition_list">
-                  <li className="composition__item"><a href="#" className="composition__link"><FaLinkedin /></a></li>
-                  <li className="composition__item"><a href="#" className="composition__link"><FaFacebook /></a></li>
-                  <li className="composition__item"><a href="#" className="composition__link"><FaTwitter /></a></li>
-                  <li className="composition__item"><a href="#" className="composition__link"><FaGithub /></a></li>
+                  <li className="composition__item"><a href="https://linkedin.com/in/jackson-thapelo-moji-5515167a" className="composition__link"><FaLinkedin /></a></li>
+                  <li className="composition__item"><a href="mailto:jacksonmoji@gmail.com" className="composition__link"><FaEnvelope /></a></li>
+                  <li className="composition__item"><a href="https://twitter.com/jacksonmoji" className="composition__link"><FaTwitter /></a></li>
+                  <li className="composition__item"><a href="https://github.com/jacksonmoji" className="composition__link"><FaGithub /></a></li>
                 </ul>
             </div>
           </div>
@@ -412,10 +412,10 @@ function App() {
           <div className="col-2-of-4">
             <div className="footer__social">
                 <ul className="footer_list">
-                  <li className="footer__item"><a href="#" className="footer__link"><FaLinkedin /></a></li>
-                  <li className="footer__item"><a href="#" className="footer__link"><FaFacebook /></a></li>
-                  <li className="footer__item"><a href="#" className="footer__link"><FaTwitter /></a></li>
-                  <li className="footer__item"><a href="#" className="footer__link"><FaGithub /></a></li>
+                  <li className="footer__item"><a href="https://linkedin.com/in/jackson-thapelo-moji-5515167a" className="footer__link"><FaLinkedin /></a></li>
+                  <li className="footer__item"><a href="mailto:jacksonmoji@gmail.com" className="footer__link"><FaEnvelope /></a></li>
+                  <li className="footer__item"><a href="https://twitter.com/jacksonmoji" className="footer__link"><FaTwitter /></a></li>
+                  <li className="footer__item"><a href="https://github.com/jacksonmoji" className="footer__link"><FaGithub /></a></li>
                 </ul>
             </div>
           </div>
