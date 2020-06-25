@@ -100,7 +100,7 @@ function App() {
         <div className="row">
           <div className="col-1-of-2">
             <h2>UNIVERSITY OF CAPE TOWN</h2>
-            <h3 className="heading-tertiary u-margin-bottom-small"> MSC COMPUTER SCIENCE </h3>  
+            <h3 className="heading-tertiary u-margin-bottom-small"> MSc COMPUTER SCIENCE </h3>  
             <p> - </p>    
             <p> Busy with Dissertation </p>          
 
@@ -155,7 +155,7 @@ function App() {
                 Developed extensions and applications in PHP for Magento E-Commerce apps built for clients.
                 Performed code reviews and design reviews from team members.
                 Performed Troubleshooting and fixed tickets issued in Jira.
-                Reviewed and participated in testing.
+                Wrote and reviewed team mates' PHP unit tests.
                 Worked with customer service to correct issues identified by users.
               </p>
             </div>
