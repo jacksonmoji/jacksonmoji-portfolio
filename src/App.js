@@ -9,6 +9,10 @@ import { FaLinkedin, FaFacebook, FaTwitter, FaPython, FaAngular, FaJs, FaBootstr
 import { DiDjango, DiPostgresql, DiAws } from 'react-icons/di';
 import './App.css';
 
+clickS = () => {
+  document.getElementById('navi-toggle').checked = false;
+}
+
 function App() {
   return (
     <div className="App">
@@ -36,7 +40,7 @@ function App() {
       <div className="navigation__background">&nbsp;</div>
       <nav className="navigation__nav">
         <ul className="navigation__list">
-          <li className="navigation__item"><a href="#about" className="navigation__link">About</a></li>
+          <li className="navigation__item"><a href="#about" className="navigation__link" onclick={this.clickS}>About</a></li>
           <li className="navigation__item"><a href="#education" className="navigation__link">Education</a></li>
           <li className="navigation__item"><a href="#experience" className="navigation__link">Experience</a></li>
           <li className="navigation__item"><a href="#tools" className="navigation__link">Tools</a></li>
