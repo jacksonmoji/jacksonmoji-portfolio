@@ -102,13 +102,13 @@ function App() {
           </h1>    
         </div>
         <div className="row">
-          <div className="col-1-of-2">
+          {/* <div className="col-1-of-2">
             <h2>UNIVERSITY OF CAPE TOWN</h2>
             <h3 className="heading-tertiary u-margin-bottom-small"> MSc COMPUTER SCIENCE </h3>  
             <p> - </p>    
             <p> Busy with Dissertation </p>          
 
-          </div>
+          </div> */}
 
           <div className="col-1-of-2">
             <h2>UNIVERSITY OF SUNDERLAND</h2>
@@ -127,7 +127,7 @@ function App() {
           </h2>    
         </div>
         <div class="row timeline">
-          <div class="timeline__container timeline__container--left">
+          {/* <div class="timeline__container timeline__container--left">
             <div class="content">
               <h1>A24 GROUP</h1>
               <h2>SOFWARE ENGINEER</h2>
@@ -137,12 +137,12 @@ industry. We are currently maintaining the system which will be phased out
 over-time to implement new and up to date technologies using Node.js, React.js,
 and MongoDB from PHP and relational databases ( MySQL, MSSQL ).</p>
             </div>
-          </div>
+          </div> */}
           <div class="timeline__container timeline__container--right">
             <div class="content">
               <h1>THOUGHT EXPRESS</h1>
               <h2>SOFWARE ENGINEER | BUSINESS PROCESS ENGINEER</h2>
-              <h3>01/2019 - 11/2019</h3>
+              <h3>01/2019 - current</h3>
               <p className="paragraph">
                 Led data migration/conversion from client’s Oracle DBMS to Thought Express’s System.
                 Lead the business requirements analysis, design, development and quality assurance of technical/business solutions.
